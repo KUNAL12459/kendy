@@ -1,4 +1,4 @@
-<p align="center"><b>🎵 KENNEDY X MUSIC 🎵</b></p>
+<p align="center"><b>🎵 Florina music 🎵</b></p>
 
 <p align="center"><b> KennedyXMusic is a Music powerfull bot for playing music on telegram voice chat groups. </b></p>
 
