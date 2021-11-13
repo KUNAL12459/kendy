@@ -1,8 +1,8 @@
 <p align="center"><b>🎵 Florina music 🎵</b></p>
 
-<p align="center"><b> KennedyXMusic is a Music powerfull bot for playing music on telegram voice chat groups. </b></p>
+<p align="center"><b> FlorinaMusic is a Music powerfull bot for playing music on telegram voice chat groups. </b></p>
 
-<p align="center"><a href="https://t.me/emikosupport"><img src="https://telegra.ph/file/d8f2eadbe79a4c949bb93.jpg" width="340"></a></p>
+<p align="center"><a href="https://t.me/florina_support"><img src="https://telegra.ph/file/1fd193ef5c3860df43a83.jpg" width="340"></a></p>
 
 <h3>Requirements</h3>
 
@@ -22,7 +22,7 @@
 ### Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KennedyProject/KennedyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sumans11/Florina music)
 
 ### Deploy On VPS 💙
 ```
@@ -47,4 +47,4 @@ The easy way to host this bot, deploy to Heroku
 - [Veez Music](https://github.com/levina-lab/veezmusic) Veez Music
 
 ### Support & Updates 🛵
-<a href="https://t.me/emikosupport"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/KennedyProject"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/florina_support"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/florina_channel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
