@@ -327,7 +327,7 @@ async def m_cb(b, cb):
             await cb.message.edit(psn, reply_markup=keyboard)
 
     elif type_ == "puse":
-        spn = "⏸ music playback has paused"
+        spn = "⚠️ music playback has paused"
         ACTV_CALLS = []
         for x in callsmusic.pytgcalls.active_calls:
             ACTV_CALLS.append(int(x.chet_id))
@@ -348,14 +348,14 @@ async def m_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("⏹", "leave"),
-                    InlineKeyboardButton("⏸", "puse"),
+                    InlineKeyboardButton("⚠️", "puse"),
                     InlineKeyboardButton("▶️", "resume"),
                     InlineKeyboardButton("⏭", "skip"),
                 ],
                 [
                     InlineKeyboardButton("📖 PLAY-LIST", "playlist"),
                 ],
-                [InlineKeyboardButton("🗑 Close", "cls")],
+                [InlineKeyboardButton("💎 Close", "cls")],
             ]
         )
         await cb.message.edit(stats, reply_markup=marr)
@@ -524,13 +524,13 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
-                    InlineKeyboardButton("🗑️ Close", callback_data="cls"),
+                    InlineKeyboardButton("💎 Close", callback_data="cls"),
                 ],
             ]
         )
         file_name = get_file_name(audio)
         title = "Telegram audio"
-        thumb_name = "https://telegra.ph/file/fa2cdb8a14a26950da711.png"
+        thumb_name = "https://telegra.ph/file/1fd193ef5c3860df43a83.jpg"
         thumbnail = thumb_name
         ctitle = message.chat.title
         ctitle = await CHAT_TITLE(ctitle)
@@ -575,7 +575,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
-                    InlineKeyboardButton("🗑️ Close", callback_data="cls")
+                    InlineKeyboardButton("💎 Close", callback_data="cls")
                 ],
             ]
         )
@@ -633,7 +633,7 @@ async def play(_, message: Message):
                             "5️⃣", callback_data=f"plll 4|{query}|{user_id}"
                         ),
                     ],
-                    [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                    [InlineKeyboardButton(text="💎 Close", callback_data="cls")],
                 ]
             )
             await _.send_photo(chid,
@@ -671,7 +671,7 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
-                        InlineKeyboardButton("🗑️ Close", callback_data="cls")
+                        InlineKeyboardButton("💎 Close", callback_data="cls")
                     ],
                 ]
             )
@@ -738,7 +738,7 @@ async def lol_cb(b, cb):
             [
                 InlineKeyboardButton("Command", callback_data="cbhplay")
             ],[
-                InlineKeyboardButton("🗑 Close", callback_data="close")
+                InlineKeyboardButton("💎 Close", callback_data="close")
             ]
         ]
     )
@@ -799,7 +799,7 @@ async def lol_cb(b, cb):
         [
             [
                 InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
-                InlineKeyboardButton("🗑️ Close", callback_data="cls")
+                InlineKeyboardButton("💎 Close", callback_data="cls")
             ],
         ]
     )
@@ -866,7 +866,7 @@ async def ytplay(_, message: Message):
             [
                 InlineKeyboardButton("Command", callback_data="cbhplay")
             ],[
-                InlineKeyboardButton("🗑 Close", callback_data="close")
+                InlineKeyboardButton("💎 Close", callback_data="close")
             ]
         ]
     )
@@ -969,7 +969,7 @@ async def ytplay(_, message: Message):
         [
             [
                 InlineKeyboardButton("⚙️ Menu", callback_data="menu"),
-                InlineKeyboardButton("🗑️ Close", callback_data="cls")
+                InlineKeyboardButton("💎 Close", callback_data="cls")
             ],
         ]
     )
