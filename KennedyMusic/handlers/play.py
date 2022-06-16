@@ -43,6 +43,18 @@ from youtube_search import YoutubeSearch
 DISABLED_GROUPS = []
 useer = "NaN"
 
+
+def cb_admin_check(func: Callable) -> Callable:
+    async def decorator(client, cb):
+        admemes = a.get(cb.message.chat.id)
+        if cb.from_user.id in admemes:
+            return await func(client, cb)
+        else:
+            await cb.answer("💡 only admin can tap this button !", show_alert=True)
+            return
+
+    return decorator
+
 def transcode(filename):
     ffmpeg.input(filename).output("input.raw", format='s16le', acodec='pcm_s16le', ac=2, ar='48k').overwrite_output().run() 
     os.remove(filename)
