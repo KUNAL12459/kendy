@@ -18,7 +18,6 @@ from KennedyMusic.handlers.play import cb_admin_check
 from KennedyMusic.handlers.play import transcode
 from KennedyMusic.handlers.play import convert_seconds
 from KennedyMusic.handlers.play import time_to_seconds
-from KennedyMusic.handlers.play import changeImageSize
 from KennedyMusic.config import BOT_NAME as bn
 from KennedyMusic.config import DURATION_LIMIT
 from KennedyMusic.config import UPDATES_CHANNEL as updateschannel
