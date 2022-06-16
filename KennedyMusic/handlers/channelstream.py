@@ -14,7 +14,6 @@ from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
-from KennedyMusic.handlers.play import generate_cover
 from KennedyMusic.handlers.play import cb_admin_check
 from KennedyMusic.handlers.play import transcode
 from KennedyMusic.handlers.play import convert_seconds
