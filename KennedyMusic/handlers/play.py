@@ -13,6 +13,7 @@ from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
 from KennedyMusic.cache.admins import admins as a
 from KennedyMusic.callsmusic import callsmusic
+from KennedyMusic.converter.converter import convert
 from KennedyMusic.callsmusic.callsmusic import client as USER
 from KennedyMusic.callsmusic.queues import queues
 from KennedyMusic.config import (
